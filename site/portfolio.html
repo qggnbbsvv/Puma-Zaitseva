@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puma Zaitseva</title>
+    <link rel="icon" type="png" href="icons.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <a href="index.html">
+                <img class="logo" src="log.png">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list">
+
+                    <li class="nav-item"><a href="fotostydiya.html" class="nav-link">Об фотостудии</a></li>
+                    <li class="nav-item"><a href="price.html" class="nav-link">Прайс</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Портфолио</a></li>
+                    <li class="nav-item"><a href="komanda.html" class="nav-link">Команда</a></li>
+                    <li class="nav-item"><a href="kontakti.html" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+
+
+        <div class="kodfun-galery">
+            <div style="background-image: url('4.jpg');" alt="Галерея"></div>
+            <div style="background-image: url('5.jpg');" alt="Галерея"></div>
+            <div style="background-image: url('6.jpg');" alt="Галерея"></div>
+            <div style="background-image: url('7.jpeg');" alt="Галерея"></div>
+            <div style="background-image: url('8.jpg');" alt="Галерея"></div>
+            <div style="background-image: url('33.jpg');" alt="Галерея"></div>
+        </div>
+        <style>
+            .kodfun-galery {
+                display: flex;
+                height: 30rem;
+                gap: 1rem;
+            }
+            
+            .kodfun-galery>div {
+                flex: 1;
+                border-radius: 1rem;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+            }
+            
+            .kodfun-galery>div:hover {
+                flex: 5;
+            }
+        </style>
+    </main>
+    <footer class="footer_">
+        <div class="footer_crossi">
+            <div class="footer_top">
+
+                <div class="footer_menu">
+
+                </div>
+            </div>
+            <p class="footer_p">Puma Zaitseva 2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>
